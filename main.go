@@ -63,7 +63,7 @@ func main() {
 			name := c.Args().Get(1)
 			createDirectory("./" + name + "/src")
 
-			fmt.Println("✨ Created" + name)
+			fmt.Println("✨ Created new project: [" + name + "]")
 
 			createFiles("./"+name+"/src/main.go", `package main
 
