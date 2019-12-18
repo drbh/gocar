@@ -62,12 +62,15 @@ func main() {
 
 			name := c.Args().Get(1)
 			createDirectory("./" + name + "/src")
+
+			fmt.Println("✨ Created" + name)
+
 			createFiles("./"+name+"/src/main.go", `package main
 
 import "fmt"
 
 func main() {
-    fmt.Println("hello world")
+    fmt.Println("Hello, World!")
 }
 `)
 			createFiles("./"+name+"/gocar.toml", `[package]
@@ -88,7 +91,8 @@ loc = "src/main.go"
 
 **generated with gocar**
 `)
-			// fmt.Println("one")
+			fmt.Println("✅ Completed template process")
+
 		case "run":
 
 			var config TomlConfig
