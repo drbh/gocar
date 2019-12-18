@@ -1,0 +1,10 @@
+[package]
+name = "wasm-flate"
+version = "0.1.0"
+authors = ["David Holtz <david.richard.holtz@gmail.com>"]
+
+[deps]
+dep = "ensure --add github.com/gorilla/websocket@1.2.0"
+
+[gets]
+get = "github.com/BurntSushi/toml"

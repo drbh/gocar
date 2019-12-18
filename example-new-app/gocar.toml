@@ -1,0 +1,11 @@
+[package]
+name = "example-new-app"
+version = "0.1.0"
+authors = [""]
+
+[bin]
+loc = "src/main.go"
+
+[deps]
+
+[gets]
