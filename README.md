@@ -5,6 +5,7 @@ kinda like cargo for Rust - but a cheap knockoff for Golang.
 ## Installation
 
 ```bash
+go get -v github.com/drbh/gocar
 go install github.com/drbh/gocar
 ```
 
